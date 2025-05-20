@@ -1,0 +1,13 @@
+diff --git a/node_modules/@clerk/shared/dist/react/index.mjs b/node_modules/@clerk/shared/dist/react/index.mjs
+index 0fb7d29..7ad3486 100644
+--- a/node_modules/@clerk/shared/dist/react/index.mjs
++++ b/node_modules/@clerk/shared/dist/react/index.mjs
+@@ -63,7 +63,7 @@ __export(clerk_swr_exports, {
+ });
+ __reExport(clerk_swr_exports, swr_star);
+ import * as swr_star from "swr";
+-import { default as default2 } from "swr";
++import * as default2 from "swr";
+ import { default as default3 } from "swr/infinite";
+ 
+ // src/react/contexts.tsx
