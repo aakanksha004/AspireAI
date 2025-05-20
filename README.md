@@ -1,3 +1,61 @@
+# 🚀 AspireAI
+
+**AspireAI** is an AI-powered career toolkit that helps users **build resumes**, **prepare for interviews**, generate **tailored cover letters**, and explore **industry insights** — all in one seamless platform.
+
+---
+
+## 🌟 Features
+
+### ✅ Build Resume
+Easily generate a professional resume by filling in a guided form or importing data. Designed to be fast, customizable, and AI-assisted.
+
+### 🤖 AI Cover Letter
+Generate context-specific, compelling cover letters using **Gemini AI**. Personalized based on user experience, job roles, and industry language.
+
+### 🎯 Interview Prep
+Prepare for interviews with smart Q&A generation powered by AI. Get mock questions, suggested answers, and tips based on your resume and job target.
+
+### 📊 Industry Insights
+Stay up to date with salary trends, in-demand skills, and hiring patterns across industries — perfect for strategic career planning.
+
+---
+
+## 🔐 Authentication
+
+- User authentication is handled with [**Clerk**](https://clerk.dev), providing secure login, registration, and session management.
+
+---
+
+## 🧠 AI Integration
+
+- All AI-powered features (resume builder, interview questions, cover letter generation) are built using **Gemini API** by Google.
+
+---
+
+## ⚙️ Background Jobs & Workflows
+
+- **Inngest** is used for handling asynchronous workflows (e.g., large cover letter generation, analytics tasks, or industry data fetching).
+
+---
+
+## 🛠️ Tech Stack
+
+| Category         | Technology                  |
+|------------------|-----------------------------|
+| Frontend         | Next.js, Tailwind CSS       |
+| Backend          | Next.js API routes, Prisma  |
+| Authentication   | Clerk                       |
+| AI Integration   | Gemini API (Google)         |
+| Job Queues       | Inngest                     |
+| Database         | PostgreSQL (via Prisma ORM) |
+| Hosting          | Vercel              |
+
+---
+
+## 📂 Folder Structure (Simplified)
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
